@@ -3,11 +3,7 @@ import AppRoutes from './routes/AppRoutes';
 import './index.css';
 
 function App() {
-  return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
-  );
+  return <h1>App Working ✔</h1>;
 }
 
 export default App;
